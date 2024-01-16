@@ -1,0 +1,35 @@
+.books{
+    padding-top: 9%;
+}
+
+
+#hiii{
+    padding-top: 2%;
+    font-size: 30px;
+    width: 50%;
+
+}
+.book{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: space-between;
+}
+#bcard1{
+    display: flex;
+    width: 80%;
+    padding-left: 5%;
+    font-size: 20px;
+    line-height: 40px;
+    background: rgb(255, 255, 255);
+   
+}
+#readbook{
+    background: blue;
+    border-radius: 15px;
+    padding: 8px;
+}
+#Delete{
+    background: rgb(255, 0, 0);
+    border-radius: 15px;
+    padding: 8px;
+}

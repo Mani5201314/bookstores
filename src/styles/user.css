@@ -1,0 +1,42 @@
+.Users{
+    position: absolute;
+    top: 20%;
+    padding-left: 35%;
+    text-align: center;
+    
+
+}
+#users1{
+    /* border: 2px solid red; */
+    padding: 20px;
+    text-align:left;
+    /* background-image: url(/public/images/hbg3.svg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    transition: 2s;
+}
+#users1:hover{
+    background-image: url(/public/images/hbg2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 100px rgb(0, 0, 0);
+}
+#user2{
+    justify-content: space-between;
+    padding: 20px;
+}
+#Deleteuser{
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+    transition: 2s;
+    font-size: 20px;
+    color: brown;
+    background-color: rgba(255, 0, 0, 0);
+
+}
+#Deleteuser:hover{
+    color: #ffffff;
+    background-color: rgba(255, 0, 0, 0);
+}

@@ -1,0 +1,22 @@
+
+#kk{
+    padding: 2%;
+}
+.favourites{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.fav_book{
+ width: 250px;   
+ border: 2px solid red;
+ margin: 5px;
+ transition: 1s;
+ padding: 5px;
+}
+.fav_book:hover{
+    box-shadow: 0px 0px 100px rgb(0, 255, 60);
+}

@@ -1,0 +1,48 @@
+.readbooks{
+    position: absolute;
+    top: 20%;
+    margin-left: 25%;
+    height: 50%;
+    width: 50%;
+    border: 2px solid rgb(23, 87, 0);
+    padding: 10px;
+
+    display: flex;
+    /* text-align: center; */
+    transition: 2s;
+    border-radius: 50px;
+}
+#jii{
+    padding: 10px;
+}
+
+#ji{
+    padding: 10px;
+}
+.readbooks:hover{
+    box-shadow: 0px 0px 100px rgb(106, 0, 255);
+
+}
+#back{
+    padding-left: 80%;
+}
+/* #back1{
+    padding-top: 0%;
+    padding-left: 30%;
+} */
+#button1{
+    padding: 12px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+#button1:hover{
+    background-color: red;
+}
+#button2{
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+#button2:hover{
+    background-color: red;
+}
